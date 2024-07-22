@@ -13,24 +13,49 @@
 
     <header>
         <div class="container1">
-            <img src="Images/Logo.jpeg" loading="lazy" alt="NK Construction Logo" class="logo" align="Top-left">
-            <h1>Nelson Kabine Construction and Projects CC.</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-
-                </ul>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-xxl">
+                    <a href="#home" class="navbar-brand ">
+                        <img src="Images/Logo.jpeg" loading="lazy" alt="NK Construction Logo" class="logo" align="Top-left">
+                        <span class="fw-bold text-secondary">
+                            Nelson Kabine Construction and Projects CC.
+                        </span>
+                    </a>
+                    <!----toggle button for Mobile nav -->
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                        </span>
+                    </button>
+    
+                    <!--navbar Links-->
+                    <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+    
+    
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link">Home</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">About Us</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a href="#services" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projects" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact Us</a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </div>
             </nav>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
     </header>
 
     <main>
