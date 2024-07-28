@@ -8,30 +8,53 @@ body {
 }
 
 /* Header Styles */
-
 header {
     height: 80px;
     background-color: #032B44;
     color: #FFFFFF;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.container1 {
+
+
+
+.btn {
+    background-color: #032B44;
+}
+
+.btn :hover {
+    background-color: yellow;
+}
+
+.nav-link:hover .underline {
+    background-color: yellow;
+}
+
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+}
+
+.navbar-nav ul li {
+    font-family: Montserrat Sans-serif;
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: space-between;
     width: 100%;
 }
+
 .container1 h1 {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
 }
-
 
 .logo {
     width: 100px;
@@ -39,25 +62,31 @@ header {
     margin-right: 20px;
 }
 
+.navbar-brand a {
+    color: #FFFFFF;
+}
+
 header h1 {
     font-size: 24px;
     margin-bottom: 0;
+    padding-left: 0;
 }
 
-header nav {
+header .navbar-nav {
     display: flex;
     justify-content: flex-end;
-    
+
     margin-right: 30px;
 }
 
 header nav ul {
     list-style: none;
     padding: 0;
-    margin:10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     display: flex;
     justify-content: space-between;
     text-align: right;
+
 }
 
 header nav li {
@@ -74,78 +103,12 @@ header nav a {
     text-align: right;
 }
 
+.hero {
+    font-family: Montserrat Sans-serif;
+}
+
 header nav a:hover {
     color: yellow;
-}
-
-/* Media Queries for Responsive Design */
-
-/* Tablet Landscape */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    header {
-        height: 60px;
-    }
-    .logo {
-        width: 80px;
-        height: 30px;
-    }
-    header h1 {
-        font-size: 20px;
-    }
-    header nav li {
-        margin-right: 15px;
-    }
-    header nav a {
-        font-size: 16px;
-    }
-}
-
-/* Mobile Landscape */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    header {
-        height: 50px;
-    }
-    .logo {
-        width: 60px;
-        height: 20px;
-    }
-    header h1 {
-        font-size: 18px;
-    }
-    header nav {
-        flex-direction: column;
-    }
-    header nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-    header nav a {
-        font-size: 14px;
-    }
-}
-
-/* Mobile Portrait */
-@media only screen and (max-width: 479px) {
-    header {
-        height: 40px;
-    }
-    .logo {
-        width: 40px;
-        height: 15px;
-    }
-    header h1 {
-        font-size: 16px;
-    }
-    header nav {
-        flex-direction: column;
-    }
-    header nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-    header nav a {
-        font-size: 12px;
-    }
 }
 
 /* Hero Section Styles */
@@ -160,6 +123,28 @@ header nav a:hover {
     padding: 100px 0;
 }
 
+.Hero {
+    background-image: url('Images/LogoDakker.jpeg');
+    background-size: contain;
+    background-size: contain;
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.navbar-toggler {
+    background-color: #FFFFFF;
+    color: #fff;
+}
+
+.Hero .container {
+    position: relative;
+    z-index: 1;
+}
+
 .hero .container {
     position: relative;
     z-index: 1;
@@ -172,7 +157,23 @@ header nav a:hover {
 
 .hero p {
     font-size: 1.5em;
+
     margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #032B44;
+    color: #FFFFFF;
+}
+
+.hero .btn:hover {
+    border-color: yellow;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: #FFFFFF;
 }
 
 .button {
@@ -184,10 +185,13 @@ header nav a:hover {
     border-radius: 5px;
     margin-right: 10px;
 }
+
 .service-image {
     width: 50px;
     height: 50px;
-    display: block;}
+    display: block;
+}
+
 .button:hover {
     background-color: yellow;
     color: #333;
@@ -214,20 +218,27 @@ section h2 {
     padding: 0;
 }
 
-/* Projects Section */
-#projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+/*Projects Section*/
+#projects .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    border-color: #032B44;
+    border-radius: 10px;
 }
 
-/* Testimonials Section */
-#testimonials {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
+#projects .btn:hover {
 
+    color: #032B44;
+    border-color: yellow;
+
+}
+#projects .col {
+   
+    border-color: #032B44;
+    border-radius: 10px;
+}
 /* Contact Form Styles */
 form div {
     margin-bottom: 15px;
@@ -269,13 +280,25 @@ footer {
     text-align: center;
 }
 
+footer li a {
+    color: #FFFFFF;
+    text-decoration:none ;
+
+}
+footer li a:hover {
+    color:  yellow;
+
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.useful-links, .social-links, .contact-info {
+.useful-links,
+.social-links,
+.contact-info {
     margin-right: 20px;
 }
 
@@ -319,10 +342,12 @@ a:hover {
 .social-links ul {
     list-style: none;
 }
-image3DRandomPanter{
+
+image3DRandomPanter {
     height: 100px;
     width: 100px;
 }
+
 /* About Us Section */
 #about {
     padding: 50px 0;
@@ -378,12 +403,13 @@ image3DRandomPanter{
     #about .container {
         flex-direction: column;
     }
-    
-    
+
+
     .about-section {
         width: 100%;
     }
 }
+
 /* Services Section */
 #services {
     padding: 50px 0;
@@ -402,33 +428,6 @@ image3DRandomPanter{
     color: #032B44;
 }
 
-.slider {
-    display: flex;
-    flex-wrap: nowrap; /* Ensure slides are in a single row */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-behavior: smooth; /* Smooth scrolling */
-    margin-bottom: 20px;
-}
-
-.slide {
-    flex: 0 0 auto; /* Prevent slides from stretching */
-    padding: 0 10px; /* Space between slides */
-    text-align: center;
-    max-width: 300px; /* Limit width of each slide */
-}
-
-.slide img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #032B44; /* Border outline */
-    border-radius: 5px;
-}
-
-.slide p {
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #333;
-}
 
 .button {
     background-color: #032B44;
@@ -445,7 +444,8 @@ image3DRandomPanter{
     color: #333;
 }
 
-.prev, .next {
+.prev,
+.next {
     background-color: #032B44;
     color: #FFFFFF;
     border: none;
@@ -455,68 +455,21 @@ image3DRandomPanter{
     margin-right: 10px;
 }
 
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
     background-color: yellow;
     color: #333;
 }
-/* Testimonials Section */
-#testimonials {
-    padding: 50px 0;
-    background-color: #f4f4f4;
-    text-align: center;
-}
 
-#testimonials .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-#testimonials h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #032B44;
-}
 
-#testimonials p {
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 30px;
-}
-
-.testimonial-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    justify-items: center;
-}
-
-.testimonial {
-    background-color: #FFFFFF;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: left;
-}
-
-.testimonial .quote {
-    font-style: italic;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-.testimonial .author {
-    font-weight: bold;
-    margin-top: 0;
-    color: #666;
-}
-
-.statistics {
+.container-text-center {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.stat-item {
+.col {
     text-align: center;
     padding: 20px;
     margin: 0 10px;
@@ -527,14 +480,43 @@ image3DRandomPanter{
     max-width: 200px;
 }
 
-.stat-item h3 {
+.col h3 {
     font-size: 2.5em;
     margin-bottom: 10px;
     color: #032B44;
 }
 
-.stat-item p {
+.col p {
     margin-top: 0;
     font-size: 0.9em;
     color: #666;
+}
+
+/**statistics*/
+.statistics-section {
+    background-color: #032B44;
+}
+
+.statistics-section {
+    border: none;
+    color: white;
+}
+
+.statistics-section h3 {
+    color: white;
+}
+
+.statistics-section p {
+    color: white;
+}
+
+.statistics-section .row .col h3 p {
+
+    background-color: #032B44;
+    color: white;
+}
+
+.statistics-section .col {
+    background-color: #032B44;
+    border: none;
 }
