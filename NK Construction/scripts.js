@@ -8,6 +8,12 @@ document.querySelectorAll('nav a').forEach(anchor => {
         });
     });
 });
+//Next Page 
+function NextPage(){
+window.location.href = 'PortFolio.html';
+ window.alert("You're Moving to Viewing Companies Portfolio");
+        
+}
 
 // Form Validation
 document.addEventListener('DOMContentLoaded', () => {
