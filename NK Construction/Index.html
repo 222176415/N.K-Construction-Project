@@ -14,99 +14,62 @@
 
 <body>
 
-    <header>
-        <div class="container1">
-            <nav class="navbar navbar-dark navbar-expand-md">
-                <div class="container-xxl">
-                    <a href="#home" class="navbar-brand">
-                        <img src="Images/Logo.jpeg" loading="lazy" alt="NK Construction Logo"
-                            class="logo d-none d-md-inline">
-                        <span class="fw-bold text-white">
-                            Nelson Kabine Construction and Projects CC.
-                        </span>
-                    </a>
-                    <!-- Toggle button for mobile nav -->
-                    <button class="navbar-toggler" style="color: white;" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- Navbar Links -->
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="main-nav"
-                        aria-labelledby="offcanvasNavbarLabel" style="background-color: #032B44;">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">NK Construction</h5>
-                            <button type="button" class="btn-close btn-close-white text-reset"
-                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body  justify-content-end">
-                            <ul class="navbar-nav navbar-dark ms-auto">
-                                <li class="nav-item">
-                                    <a href="#home" class="nav-link text-white"
-                                        style="transition: all 0.3s ease-in-out;">
-                                        Home
-                                        <span class="underline"
-                                            style="background-color: transparent; transition: background-color 0.3s ease-in-out;"></span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#about" class="nav-link text-white"
-                                        style="transition: all 0.3s ease-in-out;">
-                                        About Us
-                                        <span class="underline"
-                                            style="background-color: transparent; transition: background-color 0.3s ease-in-out;"></span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#services" class="nav-link text-white"
-                                        style="transition: all 0.3s ease-in-out;">
-                                        Services
-                                        <span class="underline"
-                                            style="background-color: transparent; transition: background-color 0.3s ease-in-out;"></span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#projects" class="nav-link text-white"
-                                        style="transition: all 0.3s ease-in-out;">
-                                        Projects
-                                        <span class="underline"
-                                            style="background-color: transparent; transition: background-color 0.3s ease-in-out;"></span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#contact" class="nav-link text-white"
-                                        style="transition: all 0.3s ease-in-out;">
-                                        Contact Us
-                                        <span class="underline"
-                                            style="background-color: transparent; transition: background-color 0.3s ease-in-out;"></span>
-                                    </a>
-                                </li>
-                                <!-----The Portfolio Link Links to the next page-->
-                               
-                                <li class="nav-item">
-                                     <button class="nav-link " id="btnP" onclick="NextPage()" style="border-color:yellow;"> Our Portfolio</button> <span class="underline"
-                                        style="background-color: transparent; transition: background-color 0.3s ease-in-out; " ></span>
-                                    
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
+    <section id="home" class="hero">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+            <!----Logo-->
+            <a class="navbar-brand fs-4" href="#">Nelson Kabine Construction</a>
+            <!----Toggle button-->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!---SideBar Header -->
+            <div class="sideBar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel" style="background-color: #032B44;">
+                <div class="offcanvas-header text-white border-bottom">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">N.K construction</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close" style="color: aliceblue; "></button>
                 </div>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section id="home" class="hero">
-            <div class="container">
-                <p>SINCE 2008</p>
-                <h2>Welcome to N.K Construction</h2>
-                <p font-style="Verdana">Design It,We Build It!</p>
-                <p>Your trusted partner for all construction needs.</p>
+                <!---SideBar  Body-->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#projects" >Projects</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#contact">Contact </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                   <!---Button-->
+                  <div class="d-flex flex-column justify-content-center align-items-center gap-3">
+                    <a href="PortFolio.html" onclick="NextPage()" class="text-decoration-none px-3 py-1 rounded-4" style="background-color:white; text-align:center; color: #032B44;">Portfolio</a>
+                  </div>
+                   
+               
+                </div>
             </div>
-            <a href="#services" class="btn">See Our Services</a> <a href="#contact" class="btn">Contact US</a>
-        </section>
+        </div>
+    </nav>
+
+    <div class="container">
+        <p>SINCE 2008</p>
+        <h2>Welcome to N.K Construction</h2>
+        <p font-style="Verdana">Design It,We Build It!</p>
+        <p>Your trusted partner for all construction needs.</p>
+    </div>
+    <a href="#services" class="btn">See Our Services</a> <a href="#contact" class="btn">Contact US</a>
+  </section>
         <section id="services" class="bg-light mt-5">
 
             <div class="container-lg">
@@ -121,6 +84,7 @@
                             <div class="card-body text-center py-4">
                                 <h4 class="card-title">Building Staffs</h4>
                                 <p class="lead card-subtitle">BrickWork</p>
+                              
                             </div>
                         </div>
                     </div>

@@ -7,18 +7,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header Styles */
-header {
-    font-family: Montserrat Sans-serif;
-    font: size 4px;;
-    height: 80px;
-    background-color: #032B44;
-    color: #FFFFFF;
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 
 
@@ -73,28 +61,7 @@ header {
     color: #FFFFFF;
 }
 
-header h1 {
-    font-size: 24px;
-    margin-bottom: 0;
-    padding-left: 0;
-}
 
-header .navbar-nav {
-    display: flex;
-    justify-content: flex-end;
-
-    margin-right: 30px;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 10px 10px 10px;
-    display: flex;
-    justify-content: space-between;
-    text-align: right;
-
-}
 
 header nav li {
     margin-right: 20px;
@@ -127,7 +94,8 @@ header nav a:hover {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+
+
 }
 
 .Hero {
@@ -139,7 +107,7 @@ header nav a:hover {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    
 }
 
 .navbar-toggler {
