@@ -531,3 +531,93 @@ span{
 
     color:#FF9900;
 }
+
+.introduction {
+    background-color:#fff;
+    padding: 20px;
+  }
+  
+  .introduction .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .introduction h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .introduction p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+/**Completed Projects*/
+  .completed-projects {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .completed-projects .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #completed-projects {
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .completed-projects h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .col {
+    flex-basis: 20%;
+    margin: 10px;
+  }
+  
+  .completed-projects .col img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .completed-projects {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .completed-projects .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .completed-projects h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+ 
