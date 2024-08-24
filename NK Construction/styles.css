@@ -1,4 +1,7 @@
 /* General Styles */
+*{
+    font-family: Montserrat Sans-serif;
+}
 body {
     font-family: Montserrat Sans-serif;
     line-height: 1.6;
@@ -7,15 +10,13 @@ body {
     background-color: #f4f4f4;
 }
 
-
-
-
-#btnP{
+#btnP {
     color: #FFFFFF;
     border-color: white;
     border-radius: 10px;
 
 }
+
 .btn {
     background-color: #032B44;
 }
@@ -107,7 +108,7 @@ header nav a:hover {
     background-position: center;
     color: #fff;
     text-align: center;
-    
+
 }
 
 .navbar-toggler {
@@ -128,7 +129,7 @@ header nav a:hover {
     background-position: center;
     color: #fff;
     text-align: center;
-    
+
 }
 
 .quote .container {
@@ -197,21 +198,25 @@ section {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 section#company-corporate-information {
     text-align: center;
     padding: 20px;
-    background:none;
+    background: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 section#supporting-documents ul li {
     display: inline-block;
     padding-right: 4px;
-    list-style-type:disc;
-  padding-right: 8px;
+    list-style-type: disc;
+    padding-right: 8px;
 }
+
 section#supporting-documents {
-   text-align: center;
+    text-align: center;
 }
+
 section h2 {
     margin-bottom: 10px;
 }
@@ -241,11 +246,13 @@ section h2 {
     border-color: yellow;
 
 }
+
 #projects .col {
-   
+
     border-color: #032B44;
     border-radius: 10px;
 }
+
 /* Contact Form Styles */
 form div {
     margin-bottom: 15px;
@@ -289,11 +296,12 @@ footer {
 
 footer li a {
     color: #FFFFFF;
-    text-decoration:none ;
+    text-decoration: none;
 
 }
+
 footer li a:hover {
-    color:  yellow;
+    color: yellow;
 
 }
 
@@ -527,97 +535,111 @@ image3DRandomPanter {
     background-color: #032B44;
     border: none;
 }
-span{
 
-    color:#FF9900;
+span {
+
+    color: #FF9900;
 }
 
 .introduction {
-    background-color:#fff;
+    background-color: #fff;
     padding: 20px;
-  }
-  
-  .introduction .container {
+}
+
+.introduction .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  .introduction h3 {
+}
+
+.introduction h3 {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .introduction p {
+}
+
+.introduction p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
-  }
+}
+
 /**Completed Projects*/
-  .completed-projects {
+.completed-projects {
     background-color: #f7f7f7;
     padding: 20px;
-  }
-  
-  .completed-projects .container {
+}
+
+.completed-projects .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-  }
+}
 
-  #completed-projects {
+#completed-projects {
     background-color: #f7f7f7;
     text-align: center;
-  }
-  .completed-projects h3 {
+}
+
+.completed-projects h3 {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .gallery {
+}
+
+.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .row {
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
-  }
-  
-  .col {
+}
+
+.col {
     flex-basis: 20%;
     margin: 10px;
-  }
-  
-  .completed-projects .col img {
+}
+
+.completed-projects .col img {
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+}
 
-  .completed-projects {
+.completed-projects {
     background-color: #f7f7f7;
     padding: 20px;
-  }
-  
-  .completed-projects .container {
+}
+
+.completed-projects .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  .completed-projects h3 {
+}
+
+.completed-projects h3 {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
- 
+}
+
+div.Documents {
+    display: inline-block;
+    size: 20%;
+
+}
+
+.Documents img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
