@@ -99,7 +99,7 @@ header nav a:hover {
 }
 
 .Hero {
-    background-image: url('Images/LogoDakker.jpeg');
+    background-image: url('Images/Logos/LogoDakker.jpeg');
     background-size: contain;
     background-size: contain;
     width: 100%;
@@ -118,6 +118,23 @@ header nav a:hover {
 .Hero .container {
     position: relative;
     z-index: 1;
+}
+
+.quote {
+    background-image: url('Images/Wall.jpeg');
+    background-size: contain;
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.quote .container {
+    position: relative;
+    z-index: 1;
+    padding-top: 120px;
 }
 
 .hero .container {
