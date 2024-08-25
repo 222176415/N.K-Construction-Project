@@ -39,13 +39,13 @@ if (isset($_POST['submitContact'])) {
 
         /// Recipients
         $mail->setFrom($email, $fullname); // Set the "From" address to the user's email and name
-        $mail->addAddress('222176415@edu.vut.ac.za', 'Nelson Kabine Construction'); // Add the recipient's email address
+        $mail->addAddress('nkabine@yahoo.com', 'Nelson Kabine Construction'); // Add the recipient's email address
 
 
         // Content
         $mail->isHTML(true);
         $mail->Subject = 'New Enquiry from Website Contact Form';
-        $mail->Body = '<h3>Hello Tinyiko, A new enquiry has been submitted through our website contact form:</h3>
+        $mail->Body = '<p>Hello Tinyiko, A new enquiry has been submitted through our website contact form:</p>
         <ul>
             <li>Name: ' . $fullname . '</li>
             <li>Email: ' . $email . '</li>

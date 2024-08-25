@@ -42,11 +42,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Our Story </a>
                                 </li>
+                               
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#geographical-trace">Our Reach</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#professional-associations-members"> BEE Commitment</a>
+                                    <a class="nav-link" href="#black-economic-transformation"> BEE Commitment</a>
                                 </li>
                                 <li class="nav-item mx-2">
                                     <a class="nav-link" href="#company-corporate-information"> Company Info</a>
@@ -372,20 +370,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script>
-        var messageText="<?= $_SESSION['status'] ?? ' '; ?> "
-
-        if(messageText != ' '){
-            swal({
-            title: "Thank You!!",
-            text: "We will contact you as Soon As Possible",
-            icon: "success",
-            button: "Done",
-        });
-
-        }
-       
-    </script>
+    
 </body>
 
 </html>
