@@ -52,24 +52,4 @@ document.addEventListener('DOMContentLoaded', function() {
         headerNav.classList.toggle('open');
       });
     }
-  
-  
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-  
-    function showSlides(n) {
-      let i;
-      const slides = Array.from(document.getElementsByClassName("slides"));
-      if (n > slides.length) {
-        slideIndex = 1;
-      }
-      if (n < 1) {
-        slideIndex = slides.length;
-      }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slides[slideIndex - 1].styles.display = "block";
-    }
   });
