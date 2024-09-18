@@ -314,42 +314,50 @@ session_start();
     </div>
     </main>
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="logo">
-                    <img src="Images/Logos/Logo.jpeg" class="logo" alt="NK Construction Logo">
-                </div>
-                <div class="useful-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                        <li><a href="PortFolio.html">Company Portfolio</a></li>
-                    </ul>
-                </div>
-                <div class="social-links">
-                    <h4>Follow Us</h4>
-                    <ul>
-                        <li><a href="https://www.facebook.com/nkconstructioncc" target="_blank"><i
-                                    class="fab fa-facebook"></i> Facebook</a></li>
-                        <li><a href="https://www.instagram.com/nk_constructioncc?igsh=M2hqeDFicWVuODlz"
-                                target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/in/YourProfile" target="_blank"><i
-                                    class="fab fa-linkedin"></i> LinkedIn</a></li>
-                    </ul>
-                </div>
-                <div class="contact-info">
-                    <h4>Contact Information</h4>
-                    <p>Phone: 083 338 0122 / 072 414 9013</p>
-                    <p>Email: <a href="mailto:info@nkconstruction.com">kabinecc@gmail.com</a></p>
-                    <p>Address: 13216 Seemola street,Ivory Park Ext 12,Midrand 1685</p>
-                </div>
-            </div>
-            <p>&copy; 2024 NK Construction. All rights reserved. | Website Developed By<a href="https://222176415.github.io/">Themba Ntimane</a></p>
-            <hr>
+  <div class="container">
+    <div class="footer-content row row-cols-1 row-cols-md-2 row-cols-lg-4">
+      <div class="col">
+        <div class="logo">
+          <img src="Images/Logos/Logo.jpeg" class="logo" alt="NK Construction Logo">
         </div>
-    </footer>
+      </div>
+      <div class="col">
+        <div class="useful-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="social-links">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/nkconstructioncc" target="_blank"><i
+                    class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://www.instagram.com/nk_constructioncc?igsh=M2hqeDFicWVuODlz"
+                    target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/YourProfile" target="_blank"><i
+                    class="fab fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="contact-info">
+          <h4>Contact Information</h4>
+          <p>Phone: 083 338 0122 / 072 414 9013</p>
+          <p>Email: <a href="mailto:info@nkconstruction.com">kabinecc@gmail.com</a></p>
+          <p>Address: 13216 Seemola street,Ivory Park Ext 12,Midrand 1685</p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center">&copy; 2024 NK Construction. All rights reserved. | Website Developed By<a
+          href="https://222176415.github.io/">Themba Ntimane</a></p>
+    <hr class="my-4">
+  </div>
+</footer>
 
     <script src="scripts.js"></script>
     <!----For Bootsrap Javascript-->

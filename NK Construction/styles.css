@@ -292,8 +292,11 @@ footer {
     color: #FFFFFF;
     padding: 20px;
     text-align: center;
+    padding-right: 30px;
 }
-
+footer .container .footer-content .contact-info {
+    padding-right: 20px;
+}
 footer li a {
     color: #FFFFFF;
     text-decoration: none;
@@ -304,13 +307,12 @@ footer li a:hover {
     color: yellow;
 
 }
-
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 30px;
 }
-
 .useful-links,
 .social-links,
 .contact-info {
