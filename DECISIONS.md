@@ -173,10 +173,3 @@ Introduce a headless CMS for content management.
 * Requires database integration
 
 ---
-
-## 🔐 8. Authentication Decision
-
-### ✅ Decision: Implement Admin Login System (Planned)
-
-**Context:**
-Secure content management is required for
